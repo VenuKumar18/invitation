@@ -1,0 +1,103 @@
+event invitation
+---------- Forwarded message ---------
+From: Adusumalli Usha Sri <ushasriadusumalli1@gmail.com>
+Date: Fri, Mar 8, 2024 at 10:57 PM
+Subject: Fwd: 302
+To: <ushasriadusumalli05@gmail.com>
+
+
+
+---------- Forwarded message ---------
+From: Adusumalli Usha Sri <ushasriadusumalli1@gmail.com>
+Date: Mon, Feb 12, 2024, 1:26 AM
+Subject: Fwd: 302
+To: <vellurigouse620@gmail.com>
+
+
+
+
+---------- Forwarded message ---------
+From: Adusumalli Usha Sri <ushasriadusumalli1@gmail.com>
+Date: Tue, Jan 30, 2024, 11:19 AM
+Subject: 302
+To: heena.sk@qiscet.edu.in <heena.sk@qiscet.edu.in>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Event  Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .event-details {
+            margin-top: 20px;
+        }
+
+        .btn-rsvp {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Event Invitation</h1>
+
+        <script>
+            // JavaScript code to prompt user for event details
+            var eventName = prompt("Enter the event name:");
+            var eventDate = prompt("Enter the event date (e.g., January 30, 2024):");
+            var eventTime = prompt("Enter the event time (e.g., 6:00 PM):");
+            var eventVenue = prompt("Enter the event venue:");
+
+            // Update the HTML content with user-provided details
+            document.write('<p>You are invited to a special event!</p>');
+            document.write('<div class="event-details">');
+            document.write('<p><strong>Event:</strong> ' + eventName + '</p>');
+            document.write('<p><strong>Date:</strong> ' + eventDate + '</p>');
+            document.write('<p><strong>Time:</strong> ' + eventTime + '</p>');
+            document.write('<p><strong>Venue:</strong> ' + eventVenue + '</p>');
+            document.write('</div>');
+            document.write('<p>We look forward to your presence at this joyous occasion.</p>');
+        </script>
+
+        <a href="mailto:your@email.com" class="btn-rsvp">RSVP Now</a>
+    </div>
+
+</body>
+
+</html>
